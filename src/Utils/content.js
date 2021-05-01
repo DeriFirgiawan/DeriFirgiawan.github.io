@@ -15,6 +15,15 @@ export const Contents = {
       demo: null
     },
     {
+      title: "Ummah Dev",
+      desc: {
+        en: "A simple web hadith built using React JS & Bootstrap 5 and consuming REST API"
+      },
+      repo: "https://github.com/DeriFirgiawan/app-muslim",
+      image: "https://i.ibb.co/FDHNt69/ummahdev.png",
+      demo: "https://ummahdev.netlify.app/"
+    },
+    {
       title: "Landing Page Covid 19",
       desc: {
         en: "The Covid 19 Landing Page is the result of slicing designs from Figma to become a website made with HTML,CSS/SCSS, Javascript and Bootstrap V5"
@@ -59,6 +68,21 @@ export const Contents = {
     {link: 'https://www.instagram.com/_derifdev/', title: 'Instagram'},
     {link: 'https://github.com/DeriFirgiawan', title: 'Github'},
     {link: 'https://id.linkedin.com/in/deri-firgiawan-b697761a4', title: 'Linkedin'},
+  ],
+
+  expertise: [
+    {
+      title: 'Expert',
+      skill: ['HTML5', 'CSS3','Javascript','Bootstrap']
+    },
+    { 
+      title: 'Advanced',
+      skill: ['React JS', 'SCSS','Redux','GIT/Github']
+    },
+    {
+      title: 'Intermediate',
+      skill: ['Firebase', 'Figma','TailwindCSS']
+    },
   ]
 }
 

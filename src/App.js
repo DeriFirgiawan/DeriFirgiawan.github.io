@@ -3,6 +3,7 @@ import AOS from 'aos';
 import { Contents } from './Utils/content';
 import { SkeletonFolio, SkeletonRepo } from './Components/Skeleton';
 import Header from './Components/Header';
+import Expertise from './Components/Contents/expertise';
 import Footer from './Components/Footer';
 const Portfolio = lazy(() => import('./Components/Contents/portfolio'));
 const Repositories = lazy(() => import('./Components/Contents/repositories'));
@@ -18,6 +19,7 @@ export default function App() {
   return (
     <main className="container overflow-hidden mx-auto my-16 px-72 md:px-24 xs:px-6">
       <Header title={Contents.about.title} text={Contents.about.text} />
+      
       <section id="showcase" className="my-36 flex flex-wrap justify-between xs:flex-col xs:justify-center">
         
         {
@@ -39,8 +41,8 @@ export default function App() {
             )
           })
         }
-        
       </section>
+
       <section className="my-36" id="repositories">
         <h1 className="text-2xl text-black xs:text-center font-medium">Repositories</h1>
         <div className="my-4 flex justify-between flex-wrap">
@@ -56,8 +58,8 @@ export default function App() {
           }
         </div>
       </section>
-
-      <section id="contact" className="my-24 text-center">
+      <Expertise data={Contents.expertise} />
+      <section id="contact" className="my-36 text-center">
         <a href="mailto:firgiawanderi@gmail.com" className="text-3xl text-black underline font-semibold transition-all hover:text-4xl xs:text-2xl xs:hover:text-3xl">firgiawanderi@gmail.com</a>
       </section>
       <Footer data={Contents.sosialLink} />
