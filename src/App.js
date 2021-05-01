@@ -4,7 +4,6 @@ import { Contents } from './Utils/content';
 import { SkeletonFolio, SkeletonRepo } from './Components/Skeleton';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import './App.css';
 const Portfolio = lazy(() => import('./Components/Contents/portfolio'));
 const Repositories = lazy(() => import('./Components/Contents/repositories'));
 
