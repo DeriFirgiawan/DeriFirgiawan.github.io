@@ -1,8 +1,0 @@
-{
-  "content": {
-    "about": {
-      "title": "Hello Everyone 👋",
-      "text": "I'm Deri from Bandung, Indonesian. I am a Web Front End Developer. I enjoy <span className='font-semibold'>Web Development</span> using <span className='font-semibold'>React JS</span> and am <span className='font-semibold'>open to freelance projects.</span>"
-    }
-  }
-}
