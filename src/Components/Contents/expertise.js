@@ -6,7 +6,7 @@ const Expertise = ({data}) => {
         {
           data.map(resultData => {
             return (
-              <div id={resultData.title} className="w-56 xs:w-28 my-6" aria-label={resultData.title} key={resultData.title}>
+              <div id={resultData.title} className="w-56 xs:w-28" aria-label={resultData.title} key={resultData.title}>
                 <p className="text-base text-gray-600 font-semibold">{resultData.title}</p>
                 <ul className="my-2">
                   {

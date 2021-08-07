@@ -1,7 +1,7 @@
 export const Contents = {
   about: {
     title: "Hello Everyone 👋",
-    text: "I'm Deri from Bandung, Indonesian. I am a Web Front End Developer. I enjoy Web Development using React JS and am open to freelance projects."
+    text: "I'm Deri from Bandung, Indonesia. I am a Front End Engineer and a Freelancer. I really enjoy Mobile App development using React Native and I'm also very happy with React JS for Web App development"
   },
 
   portfolio: [
@@ -77,12 +77,20 @@ export const Contents = {
     },
     { 
       title: 'Advanced',
-      skill: ['React JS', 'SCSS','Redux','GIT/Github']
+      skill: ['React JS', 'React Native', 'SCSS','Redux','GIT/Github']
     },
     {
       title: 'Intermediate',
-      skill: ['Firebase', 'Figma','TailwindCSS']
+      skill: ['Express JS', 'Mongo DB', 'MySQL', 'Figma', 'Tailwind CSS']
     },
-  ]
+  ],
+
+  experience: [
+    {
+      title: 'Experience',
+      company_name: 'PT Sahaware Technology Indonesia',
+      position: 'Mobile Front-End',
+    },
+  ],
 }
 
